@@ -2,12 +2,11 @@
   "name": "online-bookstore-frontend",
   "version": "1.0.0",
   "private": true,
- "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -17,10 +16,11 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.4.7",
     "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^8.46.0",
     "eslint-plugin-react": "^7.32.2"
   },
-  "description": "This repository is a complete frontend-only implementation of the \"Online Bookstore\" assignment. It follows the PDF you uploaded and the changes you requested: - No SQL or backend — all data persisted as JSON in the browser `localStorage`. - Dynamic client-side application (create/read/update/delete books, signup/login, cart, checkout). - Built with Vite + React + Tailwind for a modern developer experience.",
+  "description": "Frontend-only implementation of the Online Bookstore assignment.",
   "main": "vite.config.js",
   "keywords": [],
   "author": "",
