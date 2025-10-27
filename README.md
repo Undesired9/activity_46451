@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Online Bookstore — Frontend-only (Client-side JSON)
 
 This repository is a complete frontend-only implementation of the "Online Bookstore" assignment.
@@ -34,3 +35,6 @@ This is a client-side demo only — no backend, no SQL.
 ## Files matching the uploaded assignment PDF
 The app implements the functionality required by your assignment PDF (catalog CRUD, user actions, health/verification via UI, CI config). If you need additional deliverables from the PDF (screenshots, demonstration checklist, or a report), tell me and I will generate them and include them in the archive.
 
+=======
+# activity_46451
+>>>>>>> 4ad1e93c4568bc3744026e69752eefa9b20d6c2e
